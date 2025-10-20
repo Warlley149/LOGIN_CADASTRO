@@ -131,6 +131,7 @@ form {
 }
 
 .reiniciar:hover {
-    color: #1900ff;
+    color: #ff0000;
     text-decoration: underline;
 }
+
