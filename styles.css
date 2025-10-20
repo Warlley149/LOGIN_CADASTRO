@@ -130,8 +130,13 @@ form {
     width: 100%;
 }
 
+.reiniciar{
+  color: #e90b0b;
+}
+
 .reiniciar:hover {
-    color: #ff0000;
+    color: #0051ff;
     text-decoration: underline;
 }
+
 
