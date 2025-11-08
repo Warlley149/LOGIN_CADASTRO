@@ -8,24 +8,30 @@
 </head>
 <body>
     <div class="caixa">
-    <header>
-        <img src="microsoft.png" alt="" class="imagem">
-        <h1>Faça o seu login</h1>
-        <h2>Login:</h2>
-        <h2 class="Senha">Senha:</h2>
-    </header>
-    <main>
-        <form action="index1.html" method="GET">
-            <label for="pesquisa1">Usuário:</label>
-            <input type="email" name="pesquisa1" placeholder="Digite o seu login" required><br><br>
-            <label for="pesquisa2">Senha:</label>
-            <input type="password" name="pesquisa2" placeholder="Digite a sua senha" required><br><br>
-            <input type="submit" value="Entrar">
-            <input type="reset" value="Cancelar">
-          </form>
-           <a href="index.html" class="reiniciar">Reiniciar</a>
-    </main>
-    </div>
-</body>
+        <header>
+            <img src="microsoft.png" alt="Logo" class="imagem">
+            <h1>Faça o seu login</h1>
+        </header>
 
+        <main>
+            <form action="index1.html" method="GET">
+                <label>Usuário:</label>
+                <input type="email" name="pesquisa1" placeholder="Digite o seu login" required>
+
+                <label>Senha:</label>
+                <input type="password" name="pesquisa2" placeholder="Digite a sua senha" required>
+                <label><input type="checkbox" id="mostrarSenha">Mostrar senha</label>
+
+
+                <div class="botoes">
+                    <input type="submit" value="Entrar">
+                    <input type="reset" value="Cancelar">
+                </div>
+            </form>
+
+            <a href="index.html" class="reiniciar">Reiniciar</a>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
